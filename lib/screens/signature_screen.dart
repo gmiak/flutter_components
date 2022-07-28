@@ -21,11 +21,15 @@ class SignatureScreen extends StatelessWidget {
         ),
         const SizedBox(width: 15),
         const Text(
-          "Gmiak.dv",
-          style: TextStyle(color: primaryColor, fontWeight: FontWeight.bold),
+          "gmiak.dv",
+          style: TextStyle(
+            color: primaryColor,
+            fontWeight: FontWeight.bold,
+            fontSize: 24.0,
+          ),
         ),
         const SizedBox(width: 5),
-        const Icon(Icons.verified_user, color: blueColor, size: 12)
+        const Icon(Icons.verified_user, color: blueColor, size: 21)
       ],
     );
   }

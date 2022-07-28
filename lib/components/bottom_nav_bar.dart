@@ -16,7 +16,7 @@ class BottomNavBar extends StatelessWidget {
               Icons.home,
               color: Colors.blueAccent,
               semanticLabel: 'Home',
-              size: 30,
+              size: 35,
             ),
             backgroundColor: primaryColor),
         BottomNavigationBarItem(
@@ -24,7 +24,7 @@ class BottomNavBar extends StatelessWidget {
               Icons.add_box_outlined,
               color: logoColor,
               semanticLabel: 'Add',
-              size: 30,
+              size: 35,
             ),
             backgroundColor: primaryColor),
         BottomNavigationBarItem(
@@ -32,7 +32,7 @@ class BottomNavBar extends StatelessWidget {
               Icons.mail_outlined,
               color: logoColor,
               semanticLabel: 'Message',
-              size: 30,
+              size: 35,
             ),
             backgroundColor: primaryColor),
       ],

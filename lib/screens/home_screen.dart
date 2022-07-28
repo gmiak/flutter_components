@@ -24,11 +24,11 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               // Space
-              const SizedBox(height: 5),
-              // Divider
-              const Divider(color: collectionAvatarBorderColor, height: 2),
-              // Space
               const SizedBox(height: 10),
+              // Divider
+              const Divider(color: collectionAvatarBorderColor, height: 3),
+              // Space
+              const SizedBox(height: 15),
               // signature
               Container(
                 width: MediaQuery.of(context).size.width,

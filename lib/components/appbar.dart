@@ -15,13 +15,8 @@ class Appbar extends StatelessWidget with PreferredSizeWidget {
       elevation: 0,
       title: Text(
         title,
-        style: title == 'Qltura'
-            ? const TextStyle(
-                fontFamily: 'Rochester', fontSize: 35.0, color: logoColor)
-            : const TextStyle(
-                fontSize: 25,
-                color: logoColor,
-              ),
+        style: const TextStyle(
+            fontFamily: 'Rochester', fontSize: 35.0, color: logoColor),
       ),
       actions: [
         for (var iconButton in iconButtons)

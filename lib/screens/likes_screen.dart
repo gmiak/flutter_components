@@ -47,7 +47,7 @@ class _LikesScreenState extends State<LikesScreen> {
                 child: Icon(
                   _likes >= 1 ? Icons.favorite : Icons.favorite_border_outlined,
                   color: _likes >= 1 ? Colors.red : primaryColor,
-                  size: 23,
+                  size: 50,
                 ),
               ),
               // Space
@@ -55,11 +55,17 @@ class _LikesScreenState extends State<LikesScreen> {
               // likes
               Text(
                 _likes.toString(),
-                style: const TextStyle(color: primaryColor),
+                style: const TextStyle(
+                    color: primaryColor,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold),
               ),
               Text(
                 _likes >= 2 ? " likes" : " like",
-                style: const TextStyle(color: primaryColor),
+                style: const TextStyle(
+                    color: primaryColor,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold),
               )
             ],
           ),
