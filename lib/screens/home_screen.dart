@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components/components/bottom_nav_bar.dart';
-import 'package:flutter_components/screens/likes_screen.dart';
+import 'package:flutter_components/screens/lamp_screen.dart';
 import 'package:flutter_components/screens/signature_screen.dart';
 
 import '../components/appbar.dart';
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
               // Space
               const SizedBox(height: 15),
               // Screen to show
-              const LikesScreen(),
+              const LampScreen(),
             ],
           ),
         ),
