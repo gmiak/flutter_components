@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_components/components/bottom_nav_bar.dart';
 import 'package:flutter_components/screens/signature_screen.dart';
 import 'package:flutter_components/screens/swipe_screen.dart';
-
 import '../components/appbar.dart';
 import '../utils/colors.dart';
+
+// Author @gmiak.dv
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

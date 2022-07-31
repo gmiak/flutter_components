@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_components/utils/colors.dart';
 import 'package:flutter_tindercard/flutter_tindercard.dart';
 
+// Author @gmiak.dv
+
 class SwipePics extends StatelessWidget {
   final List<String> pics;
   final Function() liked;

@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_components/components/swipe.dart';
 import '../utils/colors.dart';
 
-// flutter run --no-sound-null-safety
+// Author @gmiak.dv
+
 class SwipeScreen extends StatefulWidget {
   const SwipeScreen({Key? key}) : super(key: key);
 
